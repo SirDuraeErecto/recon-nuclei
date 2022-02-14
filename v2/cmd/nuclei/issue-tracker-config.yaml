@@ -1,0 +1,74 @@
+# to specify which severities should be reported
+#allow-list:
+#  severity: critical, high
+# to specify which severities should be excluded from reporting
+#deny-list:
+#  severity: info, low, medium
+
+# GitHub contains configuration options for GitHub issue tracker
+#GitHub: 
+#  # base-url (optional) is the self-hosted GitHub application url
+#  base-url: ""
+#  # username is the username of the GitHub user
+#  username: ""
+#  # owner is the owner name of the repository for issues.
+#  owner: ""
+#  # token is the token for GitHub account.
+#  token: ""
+#  # project-name is the name of the repository.
+#  project-name: ""
+#  # issue-label (optional) is the label of the created issue type
+#  issue-label: ""
+#  # severity-as-label (optional) sets the severity as the label of the created issue type
+#  severity-as-label: false
+
+# GitLab contains configuration options for GitLab issue tracker
+#GitLab: 
+#  # base-url (optional) is the self-hosted GitLab application url
+#  base-url: ""
+#  # username is the username of the GitLab user
+#  username: ""
+#  # token is the token for GitLab account.
+#  token: ""
+#  # project-id is the ID of the repository.
+#  project-id: ""
+#  # issue-label (optional) is the label of the created issue type
+#  issue-label: ""
+#  # severity-as-label (optional) sets the severity as the label of the created issue type
+#  severity-as-label: false
+
+# Jira contains configuration options for Jira issue tracker
+#Jira:
+#  # cloud (optional) is the boolean which tells if Jira instance is running in the cloud or on-prem version is used
+#  cloud: true
+#  # update-existing (optional) is the boolean which tells if the existing, opened issue should be updated or new one should be created
+#  update-existing: false
+#  # URL is the Jira application URL
+#  url: ""
+#  # account-id is the account-id of the Jira user or username in case of on-prem Jira
+#  account-id: ""
+#  # email is the email of the user for Jira instance
+#  email: ""
+#  # token is the token for Jira instance or password in case of on-prem Jira
+#  token: ""
+#  # project-name is the name of the project.
+#  project-name: ""
+#  # issue-type is the name of the created issue type
+#  issue-type: ""
+
+# elasticsearch contains configuration options for elasticsearch exporter
+#elasticsearch:
+#  # IP for elasticsearch instance
+#  ip: 127.0.0.1
+#  # Port is the port of elasticsearch instance
+#  port: 9200
+#  # IndexName is the name of the elasticsearch index
+#  index-name: nuclei
+#  # SSL (optional) enables ssl for elasticsearch connection
+#  ssl: false
+#  # SSLVerification (optional) disables SSL verification for elasticsearch
+#  ssl-verification: false
+#  # Username for the elasticsearch instance
+#  username: test
+#  # Password is the password for elasticsearch instance
+#  password: test
