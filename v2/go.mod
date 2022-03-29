@@ -12,7 +12,7 @@ require (
 	github.com/bluele/gcache v0.0.2
 	github.com/corpix/uarand v0.1.1
 	github.com/go-playground/validator/v10 v10.10.0
-	github.com/go-rod/rod v0.101.8
+	github.com/go-rod/rod v0.104.2
 	github.com/gobwas/ws v1.1.0
 	github.com/google/go-github v17.0.0+incompatible
 	github.com/itchyny/gojq v0.12.6
@@ -137,7 +137,7 @@ require (
 	github.com/ulikunitz/xz v0.5.10 // indirect
 	github.com/valyala/bytebufferpool v1.0.0 // indirect
 	github.com/yl2chen/cidranger v1.0.2 // indirect
-	github.com/ysmood/goob v0.3.0 // indirect
+	github.com/ysmood/goob v0.3.1 // indirect
 	github.com/yusufpapurcu/wmi v1.2.2 // indirect
 	github.com/zclconf/go-cty v1.10.0 // indirect
 	go.etcd.io/bbolt v1.3.6 // indirect
